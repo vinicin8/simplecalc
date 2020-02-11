@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -16,22 +17,40 @@
       </ImageView>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <TextField fx:id="telaTextField" layoutX="24.0" layoutY="30.0" prefHeight="62.0" prefWidth="202.0" />
-      <Button fx:id="sete" layoutX="37.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="7" />
-      <Button fx:id="quatro" layoutX="37.0" layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="4" />
-      <Button fx:id="um" layoutX="37.0" layoutY="261.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="1" />
-      <Button fx:id="zero" layoutX="37.0" layoutY="308.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="0" />
-      <Button fx:id="oito" layoutX="83.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="8" />
-      <Button fx:id="nove" layoutX="129.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="9" />
-      <Button fx:id="diminuirButton" layoutX="176.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="-" />
-      <Button fx:id="cinco" layoutX="83.0" layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="5" />
-      <Button fx:id="seis" layoutX="129.0" layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="6" />
-      <Button fx:id="somarButton" layoutX="176.0" layoutY="214.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="39.0" text="+" />
-      <Button fx:id="dois" layoutX="83.0" layoutY="261.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="2" />
-      <Button fx:id="tres" layoutX="129.0" layoutY="261.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="3" />
-      <Button fx:id="decimalButton" layoutX="83.0" layoutY="308.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="," />
-      <Button fx:id="igualButton" layoutX="131.0" layoutY="308.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="84.0" text="=" />
-      <Button fx:id="multiButton" layoutX="176.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="*" />
-      <Button fx:id="dividirButton" layoutX="129.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" text="/" />
-      <Button fx:id="apagarButton" layoutX="37.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="84.0" text="C" />
+      <Button fx:id="sete" layoutX="37.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="7" />
+      <Button fx:id="quatro" layoutX="37.0" layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="4" />
+      <Button fx:id="um" layoutX="37.0" layoutY="261.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="1" />
+      <Button fx:id="zero" layoutX="37.0" layoutY="308.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="0" />
+      <Button fx:id="oito" layoutX="83.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="8" />
+      <Button fx:id="nove" layoutX="129.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="9" />
+      <Button fx:id="diminuirButton" layoutX="176.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="-" textFill="#cd1313">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="cinco" layoutX="83.0" layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="5" />
+      <Button fx:id="seis" layoutX="129.0" layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="6" />
+      <Button fx:id="somarButton" layoutX="176.0" layoutY="214.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="+" textFill="#d71616">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="dois" layoutX="83.0" layoutY="261.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="2" />
+      <Button fx:id="tres" layoutX="129.0" layoutY="261.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="3" />
+      <Button fx:id="decimalButton" layoutX="83.0" layoutY="308.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="," />
+      <Button fx:id="igualButton" layoutX="131.0" layoutY="308.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="84.0" style="-fx-background-color: #87CEEB;" text="=" textFill="#b51111">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="multiButton" layoutX="176.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="*" textFill="#bf1313">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="dividirButton" layoutX="129.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" style="-fx-background-color: #87CEEB;" text="/" textFill="#b51212">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="apagarButton" layoutX="37.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="84.0" style="-fx-background-color: #87CEEB;" text="C" textAlignment="CENTER" textFill="#d71010" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
     </children>
 </AnchorPane>
